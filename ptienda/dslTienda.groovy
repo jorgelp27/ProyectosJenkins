@@ -16,7 +16,7 @@ job('Job-pTienda') {
     }
     
     steps {
-        shell("bash install.sh")
+        shell("bash ./build/install.sh")
     }
 }
 
