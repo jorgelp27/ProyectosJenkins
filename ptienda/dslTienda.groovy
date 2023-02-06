@@ -2,7 +2,7 @@
 // import jenkins-auto-approve-script.groovy
 
 job('Job-pTienda') {
-    description('Job Padre para crear una tarea Hija que despliegue la App Tienda del Corte Ingles.sdasdasdasd')
+    description('Job Padre para crear una tarea Hija que despliegue la App Tienda del Corte Ingles.')
     scm {
         git('https://github.com/jorgelp27/jenkinsPTienda.git', 'master'){ 
             node -> 
